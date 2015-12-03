@@ -20,7 +20,7 @@ her_number = '+xxx'
 reason = [
   'Working hard',
   'Gotta ship this feature',
-  'Someone fucked the system again'
+  'Someone broke the system again'
 ].sample
 
 # Send a text message

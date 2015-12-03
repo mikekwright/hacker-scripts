@@ -16,7 +16,7 @@ phone_numbers:
 reasons:
   - Working hard
   - Gotta ship this feature
-  - Someone fucked the system again
+  - Someone broke the system again
 ...
 
 my $date = DateTime->now;

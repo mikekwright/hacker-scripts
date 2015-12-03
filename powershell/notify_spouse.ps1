@@ -17,7 +17,7 @@ $HER_NUMBER='+xxx'
 $REASONS =
   'Working hard',
   'Gotta ship this feature',
-  'Someone fucked the system again'
+  'Someone broke the system again'
 $reason = $REASONS | Get-Random
 $message = "Late at work. $reason."
 

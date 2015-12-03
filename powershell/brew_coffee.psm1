@@ -3,7 +3,7 @@
     Simple script to connect to a coffee part using TelNet then issue specific commands that
 	brew and pourt a cup of coffee for the user.
 .DESCRIPTION
-    This script was converted using the ruby version of the fucking_coffee script. In this script,
+    This script was converted using the ruby version of the brew_coffee script. In this script,
     I left the use of environment variables since its only use was to determine if the user was
     still logged in to the system.  Per issue #42 (https://github.com/NARKOZ/hacker-scripts/issues/42)
     I left the password string hard coded until a decision is made by NARKOZ, the project owner, as
@@ -19,7 +19,7 @@
        1.0             Initial Release
 #>
 
-Function Fucking-Coffee
+Function Brew-Coffee
 {
     # Exit early if no sessions with my username are found
     if ($env:Username.Count > 0) {

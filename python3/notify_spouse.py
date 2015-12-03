@@ -13,7 +13,7 @@ dotenv = get_dotenv()
 TWILIO_ACCOUNT_SID = dotenv['TWILIO_ACCOUNT_SID']
 TWILIO_AUTH_TOKEN = dotenv['TWILIO_AUTH_TOKEN']
 
-LOG_FILE_PATH = get_log_path('smack_my_bitch_up.txt')
+LOG_FILE_PATH = get_log_path('notify_spouse.txt')
 
 
 def main():
@@ -30,7 +30,7 @@ def main():
     reasons = [
         'Working hard',
         'Gotta ship this feature',
-        'Someone fucked the system again',
+        'Someone broke the system again',
     ]
 
     try:

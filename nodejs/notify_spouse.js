@@ -25,7 +25,7 @@ exec("who -q", function(error, stdout, stderr) {
     var reasons = [
         'Working hard',
         'Gotta ship this feature',
-        'Someone fucked the system again'
+        'Someone the system again'
     ];
 
     // Generate BS message

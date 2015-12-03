@@ -24,7 +24,7 @@ her_number = '+xxx'
 reasons = c(
   'Working hard',
     'Gotta ship this feature',
-      'Someone fucked the system again'
+      'Someone broke the system again'
       )
 
 POST(paste("https://api.twilio.com/2010-04-01/Accounts/",TWILIO_ACCOUNT_SID,"/Messages.json",sep=""),

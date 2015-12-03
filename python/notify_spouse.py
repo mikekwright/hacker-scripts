@@ -23,7 +23,7 @@ her_number = '+xxx'
 reasons = [
   'Working hard',
   'Gotta ship this feature',
-  'Someone fucked the system again'
+  'Someone broke the system again'
 ]
 
 client = TwilioRestClient(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)

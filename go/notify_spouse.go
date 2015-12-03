@@ -19,9 +19,9 @@ func main(){
      }
 
 
-     reasons := []string {"Working hard","Gotta ship this feature","Someone fucked the system again"}
+     reasons := []string {"Working hard","Gotta ship this feature","Someone broke the system again"}
 
-     rand.Seed(time.Now().UTC().UnixNano())	
+     rand.Seed(time.Now().UTC().UnixNano())
      message := "Late at work. " + reasons[rand.Intn(len(reasons))]
 
      TWILIO_ACCOUNT_SID := string(os.Getenv("TWILIO_ACCOUNT_SID"))

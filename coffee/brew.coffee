@@ -25,4 +25,4 @@ setTimeout ->
 , 1 * 1000
 
 # alert
-sh 'say come here and take your fucking coffee'
+sh 'say come here and take your coffee'
